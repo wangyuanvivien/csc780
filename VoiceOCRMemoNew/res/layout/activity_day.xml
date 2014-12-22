@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Today List 1"
+        android:id="@+id/daytext" 
+        android:layout_alignParentLeft="true"
+        android:textSize="20dp"/>
+
+    <TextView android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textColor="@color/black"
+        android:textSize="26dp"
+        android:textStyle="normal"    
+        android:id="@+id/taskList" />
+ 
+       
+
+        
+      <ImageButton
+	    android:id="@+id/addbutton"        
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true"
+	    android:src="@drawable/ocr"
+	    android:onClick="onClick"
+	    android:text="Add"/>
+      
+      <ImageButton
+	    android:id="@+id/addvcbutton"        
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentLeft="true"
+	    android:src="@drawable/microphone"
+	    android:onClick="onClick"
+	    android:text="Add"/>
+
+      <ImageButton
+          android:id="@+id/backbutton"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_alignTop="@+id/addbutton"
+          android:layout_centerHorizontal="true"
+          android:src="@drawable/back"
+          android:onClick="onClick"
+          android:text="Back" />
+
+</RelativeLayout>

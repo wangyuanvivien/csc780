@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Copyright (C) 2012 The Android Open Source Project
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+<resources>
+
+<item name="transparent" type="color">#FFFFFF</item>
+<item name="grey" type="color">#555555</item>
+<item name="green" type="color">#4499CC00</item>
+<item name="darkgreen" type="color">#FF669900</item>
+
+<color name="white">#FFFFFF</color>
+<color name="black">#000000</color>
+<color name="bg_gradient_start">#31244e</color>
+<color name="bg_gradient_end">#6b394c</color>
+<color name="light_blue">#A8DFF4</color>
+<color name="light_green">#D3E992</color>
+<color name="light_red">#FFAFAF</color>
+<color name="light_yellow">#FFECC0</color>
+<color name="dark_blue">#0099CC</color>
+<color name="dark_green">#669900</color>
+<color name="dark_red">#CC0000</color>
+<color name="dark_yellow">#FF8A00</color>
+<color name="help_button_view">#ffcccccc</color> <!-- help button view background color -->
+<color name="help_view">#ff404040</color> <!-- background color for entire help view -->
+<color name="result_minor_text">#ffc0c0c0</color> <!-- source language text/label text color. For example, "OCR English" -->
+<color name="result_text">#ffffffff</color> <!-- OCR result text color -->
+<color name="result_view">#b0000000</color> <!-- result view background color -->
+<color name="status_text">#ffffffff</color> <!-- status_view_top/status_view_bottom text color -->
+<color name="status_top_text_background">#ffffffff</color> <!-- status_view_top text background color -->
+<color name="translation_text">#00ccff</color> <!-- translation text color -->
+<color name="viewfinder_corners">#ffffffff</color> <!-- four corner elements for viewfinder -->
+<color name="viewfinder_frame">#ffd6d6d6</color> <!-- viewfinder rectangle -->
+<color name="viewfinder_mask">#60000000</color> <!-- viewfinder exterior darkened area -->
+
+</resources>
